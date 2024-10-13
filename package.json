@@ -1,8 +1,8 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
-  "main": "index.js",
-  "types": "./src/index.d.ts",
+  "main": "./build/cjs/index.js",
+  "types": "./build/src/index.d.ts",
   "description": "Helpers library for FindJob app",
   "engines": {
     "node": ">=20"
@@ -34,8 +34,8 @@
   ],
   "exports": {
     ".": {
-      "import": "./src/index.js",
-      "require": "./src/index.js"
+      "import": "./build/esm/index.js",
+      "require": "./build/cjs/index.js"
     }
   },
   "dependencies": {
