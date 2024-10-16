@@ -70,7 +70,7 @@ export {
   ICertificate,
   ISellerDocument,
 } from './seller.interface';
-export { uploadFile } from './cloudinary-upload';
+export { uploads, videoUpload } from './cloudinary-upload';
 export {
   IErrorResponse,
   IError,
